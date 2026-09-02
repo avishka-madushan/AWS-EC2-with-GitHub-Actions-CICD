@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"response": "Hello, Welcome to Adomic Arts samin"}
+    return {"response": "Hello, Welcom"}
 
 @app.get("/will")
 def read_will():
