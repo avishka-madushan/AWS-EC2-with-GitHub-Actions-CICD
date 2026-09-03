@@ -13,3 +13,7 @@ def read_will():
 @app.get("/ready")
 def read_ready():
     return {"response": " Great!, It works!"}
+
+@app.get("/health")
+def health():
+    return {"status": "healthy"}
